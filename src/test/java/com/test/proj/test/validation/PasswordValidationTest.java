@@ -26,7 +26,7 @@ public class PasswordValidationTest {
     }
 
     @Test
-    public void shouldReturnFalseWhenPasswordIsValid() {
+    public void shouldReturnFalseWhenPasswordIsNotValid() {
         assertFalse(passwordValidator.isValid("Pa1_", null));
         assertFalse(passwordValidator.isValid("Password#", null));
         assertFalse(passwordValidator.isValid("12345678_", null));
