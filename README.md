@@ -20,5 +20,5 @@ If there is problem running the project then try following steps:
 - The API throws exception if password does not meet above criteria
 - If all fields are valid the API uses the IP address to fetch the city from IP-API.com 
 - If IP-API.com fails, the API will throw an exception including the reason for failure coming from IP-API.com
-- The password field is being handled as text. Usually it is expected that the client will first communicate with an OAuth server via https to get a secure token. But for the purpose of this small exercise it is assumed that this is not a requirement.
+- The password field is being handled as text. Usually it is expected that the client will first communicate with an OAuth server via https to get a secure token.
 
