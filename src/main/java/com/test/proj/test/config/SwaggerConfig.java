@@ -24,7 +24,7 @@ public class SwaggerConfig {
                 .licenseUrl("https://github.com/syeds-git/test-api/blob/main/LICENSE")
                 .termsOfServiceUrl("")
                 .version("1.0.0")
-                .contact(new Contact("Syed Ali", "https://github.com/syeds-git?tab=repositories", "syed.taha@outlook.com"))
+                .contact(new Contact("Syed Ali", "https://github.com/syeds-git?tab=repositories", "user@email.com"))
                 .build();
     }
 
